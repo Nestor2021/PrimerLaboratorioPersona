@@ -19,7 +19,7 @@ namespace Persona
             clspersona.Apellido = "Tejada";
             clspersona.Edad = 20;
             clspersona.Estado = "Soltero";
-            clspersona.Nacionalidad = "Salvareña";
+            clspersona.Nacionalidad = "Salvadoreña";
 
             Console.WriteLine(nclspersona.Hablar(clspersona));
             Console.ReadLine();

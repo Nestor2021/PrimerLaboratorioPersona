@@ -11,7 +11,7 @@ namespace Persona.Negocio
     {
         public String Hablar(ClsPersona persona)
         {
-            return "La persona " + persona.Nombre + " esta hablando";        
+            return "La persona " + persona.Nombre +" " +persona.Apellido + " con edad de "+ persona.Edad +" de estado "+persona.Estado+ " con nacionalidad "+persona.Nacionalidad+" esta hablando con sus amigos";        
   
         }
 
