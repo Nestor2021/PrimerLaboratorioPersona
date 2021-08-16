@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Persona.Entidades;
+using Persona.Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +12,21 @@ namespace Persona
     {
         static void Main(string[] args)
         {
+            ClsPersona clspersona = new ClsPersona();
+            NClsPersona nclspersona = new NClsPersona();
+
+            clspersona.Nombre = "Martín";
+            clspersona.Apellido = "Tejada";
+            clspersona.Edad = 20;
+            clspersona.Estado = "Soltero";
+            clspersona.Nacionalidad = "Salvareña";
+
+            Console.WriteLine(nclspersona.Hablar(clspersona));
+            Console.ReadLine();
+
+
+
+
         }
     }
 }
